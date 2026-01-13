@@ -1,0 +1,12 @@
+texto = leia('Insira um texto: ')
+
+lista_texto = texto.dividir(' ')
+
+invertida = lista_texto.inverter()
+
+lista_invertida = invertida.dividir(',')
+
+concatenar = lista_invertida.juntar(' ')
+
+imprima(' ')
+imprima('Texto invertido: ${concatenar}')
